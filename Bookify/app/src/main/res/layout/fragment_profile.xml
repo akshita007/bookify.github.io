@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.ProfileFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAppIcon"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/app_icon2"
+            android:contentDescription="@string/app_name"
+            android:layout_centerHorizontal="true"
+            app:civ_border_overlay="true"
+            app:civ_border_width="2px"
+            app:civ_border_color="@color/colorAccent"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/borderbottom"
+        android:hint="@string/Username"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="7dp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Email"
+        android:background="@drawable/borderbottom"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="7dp" />
+
+    <TextView
+        android:id="@+id/txtPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/PhoneNo"
+        android:background="@drawable/borderbottom"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="7dp" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/Address"
+        android:background="@drawable/borderbottom"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="7dp"/>
+
+    <Button
+        android:id="@+id/btn_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounder_corners"
+        android:text="@string/Edit"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:padding="7dp"/>
+
+
+
+</LinearLayout>

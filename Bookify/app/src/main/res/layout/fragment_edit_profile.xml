@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.EditProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAppIcon"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/app_icon2"
+            android:contentDescription="@string/app_name"
+            android:layout_centerHorizontal="true"
+            app:civ_border_overlay="true"
+            app:civ_border_width="2px"
+            app:civ_border_color="@color/colorAccent"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderbottom"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="text"
+        android:hint="@string/Username"
+        android:drawableStart="@drawable/user_ic"
+        android:maxLength="20"
+        android:padding="7dp"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderbottom"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/Email"
+        android:drawableStart="@drawable/email_ic"
+        android:padding="7dp"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/etPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderbottom"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="phone"
+        android:hint="@string/PhoneNo"
+        android:drawableStart="@drawable/phone_ic"
+        android:maxLength="10"
+        android:padding="7dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderbottom"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="text"
+        android:hint="@string/Address"
+        android:drawableStart="@drawable/ic_address"
+        android:padding="7dp"
+        android:autofillHints="" />
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounder_corners"
+        android:text="@string/Save"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:padding="7dp"/>
+
+</LinearLayout>

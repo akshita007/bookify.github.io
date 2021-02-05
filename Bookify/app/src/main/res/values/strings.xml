@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Bookify</string>
+    <string name="Username">Enter your Username</string>
+    <string name="Password">Enter your Password(min 6 character)</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="RegisterYourself"><u>Don\'t have an account?Sign Up Now!</u></string>
+    <string name="app_title"><b>BOOKIFY</b></string>
+    <string name="Email">Enter your email</string>
+    <string name="PhoneNo">Enter your mobile no.</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="SignUP">Sign Up</string>
+    <string name="reset_password">Enter your email to reset your password:</string>
+    <string name="ForgetPasswordTitle">Forget Password</string>
+    <string name="send">Send</string>
+    <string name="User">UserName</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="faq">FAQ</string>
+    <string name="logOut">Log Out</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="preferences">SharedPreferences</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Edit">Edit</string>
+    <string name="Address">Enter your address</string>
+    <string name="que1">Q1. Is my personal information shared with anyone?</string>
+    <string name="ans1">A1. At Bookify, we respect your need for confidentiality and we will never share personal information with anyone. We do at times run reports to understand general population behaviour and needs, however this is never on a personal level and definitely never uses your name, email address or anything else that uniquely identifies you. Should you still have any concerns about your data, please feel free to contact us directly with your specific question.</string>
+    <string name="ans2">A2. The majority of products within our app are available online or at your nearby Book stores. At this stage we are unable to provide you with a list of retailers that sell these products, however this is something that we are working on.</string>
+    <string name="que2">Q2. Where can i buy the products shown within the app?</string>
+    <string name="que3">Q3. How long will it take for the product to be delivered?</string>
+    <string name="ans3">A3. The maximum time for the product deliver is 5–7 weekdays.However, it also depends wheter you live in urban or rural areas.</string>
+    <string name="que4">Q4. Can i create multiple profiles within the app?</string>
+    <string name="ans4">A4. Absolutely, Bookify:The exclusive book hub app is designed with keeping the idea of family in mind. Create a profile by going to Register Account for each member and set their individual preferences or needs.</string>
+    <string name="que5">Q5. Can you tell me where to buy the products?</string>
+    <string name="ans5">A5. Unfortunately, we cannot tell you which retailer stocks the selected product at this time, however this is something we are working on. Follow us on social media for regular updates.</string>
+    <string name="Save">Save</string>
+    <string name="bookName">Book Name</string>
+    <string name="author_name">Author(s) Name</string>
+    <string name="kind">Tag:</string>
+    <string name="category">Category</string>
+    <string name="n_a">N/A</string>
+    <string name="about_the_book">About the Book</string>
+    <string name="book_description">Book Description</string>
+    <string name="search">Search</string>
+    <string name="enterBookName">Enter book name</string>
+    <string name="publisher_name">Publisher</string>
+    <string name="page_count">Pages</string>
+    <string name="language">Language</string>
+    <string name="cost">Price</string>
+    <string name="buyLink">Buy Link</string>
+
+</resources>
